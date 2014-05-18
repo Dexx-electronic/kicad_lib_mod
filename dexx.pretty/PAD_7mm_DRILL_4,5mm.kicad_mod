@@ -1,0 +1,9 @@
+(module PAD_7mm_DRILL_4,5mm (layer F.Cu)
+  (fp_text reference PAD_7mm_drill_4,5mm (at 0 -5.99948) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value val** (at 0 4.0005) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (pad 1 thru_hole circle (at 0 -1.00076) (size 7.00024 7.00024) (drill 4.50088) (layers *.Cu *.Mask F.SilkS))
+)

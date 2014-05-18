@@ -1,0 +1,10 @@
+(module PADS_2x4mm_rm5mm (layer F.Cu)
+  (fp_text reference "2x 4mm pads rm5" (at 0.50038 -4.24942) (layer F.SilkS)
+    (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
+  )
+  (fp_text value val** (at 0 3.2512) (layer F.SilkS) hide
+    (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
+  )
+  (pad 1 thru_hole circle (at -2.43332 -0.18034 90) (size 4.0005 4.0005) (drill 1.30048) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.5654 -0.18034 90) (size 4.0005 4.0005) (drill 1.30048) (layers *.Cu *.Mask F.SilkS))
+)
